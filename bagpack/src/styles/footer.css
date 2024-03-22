@@ -1,0 +1,22 @@
+.footerContain{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2%;
+    flex-direction: row;
+    background-color: #000000ea;
+    color: white;
+}
+.linksDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+    
+}
+.linksDiv a{
+    text-decoration: none;
+    color: white;
+}

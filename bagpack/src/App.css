@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.socialMedia{
+  position: fixed;
+  top: 50%;
+  right: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.822);
+  width: 50px;
+  padding: 30px;
+  gap: 15px;
+}
+.socialMedia svg{
+  color: white;
+  font-size: 40px;
+}

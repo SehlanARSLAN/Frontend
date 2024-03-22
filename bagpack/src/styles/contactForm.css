@@ -1,0 +1,64 @@
+.containFormm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    width: 100%;
+    height: 70vh;
+    margin-left: 100px;
+}
+.formContainn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    width: 50%;
+}
+
+.user {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.formContainTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.formContainn input,
+.formContainTwo input {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.user label,
+.formContainTwo label{
+    margin-bottom: 5px
+}
+.formContainTwo textarea {
+    resize: none;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.contactButton{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    cursor: pointer;
+    width: 15%;
+    height: 5%;
+}
+.contactButton:hover{
+    background-color: white;
+    color: black;
+}

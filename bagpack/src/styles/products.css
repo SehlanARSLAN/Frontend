@@ -1,0 +1,32 @@
+.containProduct{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.imageFlex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    flex-direction: column;
+}
+.imageFlexOne{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 10px;
+   margin-bottom: 10px;
+   cursor: pointer;
+}
+.imageFlexOne a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.imageShop{
+     width: 300px;
+    height: 300px;
+}

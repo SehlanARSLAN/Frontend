@@ -1,0 +1,43 @@
+.info svg{
+    color: white;
+}
+/* productinfo.css */
+/*style={{backgroundColor:"black",color:"white",borderBottom:"1px solid white"}} style={{backgroundColor:"black",color:"white"}} js dosyası içerisinde yapmıştım*/ 
+/* Product Info Accordion */
+.info .MuiAccordion-root {
+    background-color: black !important;
+    color: white !important;
+  }
+  .info .MuiAccordion-root:nth-child(1) {
+    border-bottom: 1px solid white !important;
+  }
+
+  .info .MuiAccordionSummary-root {
+    background-color: black !important;
+    
+  }
+  
+  .info .MuiAccordionDetails-root {
+    background-color: black !important;
+    color: white !important;
+    
+  }
+  
+  /* Return and Refund Policy Accordion */
+  .info .MuiAccordion-root:last-child {
+    background-color: black !important;
+    color: white !important;
+    
+  }
+  
+  .info .MuiAccordionSummary-root:last-child {
+    background-color: black !important;
+    
+  }
+  
+  .info .MuiAccordionDetails-root:last-child {
+    background-color: black !important;
+    color: white !important;
+    
+  }
+  

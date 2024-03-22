@@ -1,0 +1,55 @@
+.itemCart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+    border: 1px solid white;
+}
+.infoProductSide{
+    display: flex;
+    flex-direction: column;
+}
+.cartDelete{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+.drawer {
+    max-height: 100vh; /* Maksimum yükseklik ekran yüksekliği kadar olacak */
+    overflow-y: auto; /* Dikey scrollbar'ı sadece ihtiyaç duyulduğunda göster */
+    background-color: black; /* Arka plan rengi */
+    padding: 20px; /* İstenilen iç boşluk */
+}
+.buttonSpan{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.removeButton, .addButton{
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+.totalPrice{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.cartLink{
+    width: 100%;
+    border: 1px solid white;
+    background-color: transparent;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.cartLink a{
+    text-decoration: none;
+    color: white;
+}
