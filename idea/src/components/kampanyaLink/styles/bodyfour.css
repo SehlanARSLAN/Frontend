@@ -1,0 +1,47 @@
+.bodyFourContain{
+    display: flex;
+    padding: 50px;
+    margin: 0px 150px;
+}
+.bodyFourLeftSide{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex:1;
+}
+.bodyFourRightSide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex:1;
+}
+.bodyFourImage img{
+    width: 100%;
+}
+.bodyFourInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+.bodyFourInfo h2{
+    color: rgba(0, 128, 0, 0.493);
+    font-weight: 400;
+    font-size: xx-large;
+}
+.bodyFourInfo p{
+    width: 80%;
+}
+.bodyFourButton{
+    background-color: red;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 15px;
+    color: white;
+    border-radius: 30px;
+}

@@ -1,0 +1,100 @@
+.login{
+    width: 100%;
+}
+.loginContain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.loginContainTwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.loginForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px auto;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    width: 540px;
+    padding: 20px;
+}
+.loginForm h2{
+    padding: 10px;
+}
+.loginForm input{
+    width: 345px;
+    padding: 15px;
+    display: flex;
+    margin: 10px 0px;
+    outline: none;
+}
+.check{
+    width:350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.check a{
+    text-decoration: none;
+    color: black;
+}
+.remember-me{
+    display: flex;
+    align-items: center;
+}
+.remember-me span{
+    padding: 0;
+}
+.girisButton{
+    margin: 25px;
+
+}
+.girisButton button{
+    padding: 20px;
+    background-color: rgba(0, 128, 0, 0.548);
+    border: none;
+    color: white;
+    width: 345px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.signupButtonLink{
+    padding: 15px;
+    width: 530px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.baglanIcon{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.iconButton{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    padding: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 230px;
+    cursor: pointer;
+}

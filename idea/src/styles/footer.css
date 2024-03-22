@@ -1,0 +1,60 @@
+.footerLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.footerLinkContain{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 40px 0px;
+    padding: 20px;
+    width: 100%;
+}
+.footerLinkContain a{
+    text-decoration: none;
+    color: black;
+    transition: color ease-in-out 0.3s;
+    font-size: large;
+}
+.footerLinkContain a:hover{
+    text-decoration: none;
+    color: rgba(0, 128, 0, 0.562);
+}
+.footerLinkContain div div:first-child {
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+.footerLinkContain div div:not(:first-child) {
+    margin: 15px 0px; /* Adjust the margin value as needed */
+}
+.footerTwo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px;
+    color: rgba(128, 128, 128, 0.548);
+}
+.footerIcon{
+    display: flex;
+    gap: 15px;
+}
+.footerThree{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    margin: 20px 0px;
+    color: rgba(128, 128, 128, 0.507);
+}
+.footerThree a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.267);
+    transition: color ease-in-out 0.3s;
+}
+.footerThree a:hover {
+    color: rgba(0, 128, 0, 0.644);
+}

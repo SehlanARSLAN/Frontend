@@ -1,0 +1,31 @@
+.bodyOneContainer{
+    margin: 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 40px;
+}
+.bodyDetail{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.bodyDetail h1{
+    color: rgba(0, 128, 0, 0.445);
+    font-weight: 500;
+    font-size: 25px;
+}
+.bodyDetail button {
+    background-color: red;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px;
+    color: white;
+    border-radius: 30px;
+}

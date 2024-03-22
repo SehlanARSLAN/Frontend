@@ -1,0 +1,40 @@
+.bodyThreeContain{
+    padding: 50px;
+    margin: 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.bodyThreeImage img{
+    width: 100%;
+}
+.bodyThreeInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.bodyThreeInfo h2{
+    color: rgba(0, 128, 0, 0.548);
+    font-size: xx-large;
+    font-weight: 550;
+}
+.bodyThreeInfo p {
+    width: 55%;
+    text-align: center;
+    font-weight: lighter;
+    font-size: large;
+}
+.bodyThreeInfo button{
+    background-color: red;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 15px;
+    color: white;
+    border-radius: 30px;
+}

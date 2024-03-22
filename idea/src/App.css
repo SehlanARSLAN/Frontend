@@ -1,0 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+hr{
+  border-color: rgba(128, 128, 128, 0.144);
+}

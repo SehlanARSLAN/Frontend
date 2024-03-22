@@ -1,0 +1,53 @@
+.adviceContainer{
+    background-color: rgba(128, 128, 128, 0.041);
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.adviceContainTwo{
+    margin: 30px 150px;
+}
+.adviceButtonContain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.adviceButtonContain::before , .adviceButtonContain::after{
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: black;
+}
+.filterButton{
+    background-color: transparent;
+    color: black;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.activeButton{
+    background-color: rgba(172, 255, 47, 0.726);
+    color: black;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: box-shadow 0.5s ease-in-out;
+}
+.adviceProduct{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.containInfo button:hover{
+    background-color: rgba(172, 255, 47, 0.774);
+}

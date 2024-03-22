@@ -1,0 +1,17 @@
+.productLinksContainer{
+    width: 100%;
+}
+.productLinksMargin{
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+}
+.productLinksLeft{
+    width: 15%;
+}
+.productLinksRight{
+    width: 85%;
+    margin: 150px 100px;
+}

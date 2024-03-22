@@ -1,0 +1,28 @@
+.customDesignContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px 150px;
+}
+.customDesignItem {
+    text-align: left;
+    margin-bottom: 20px;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    top: 100px;
+    right: 500px;
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.767);
+}
+.description{
+    font-size: 35px;
+    font-weight: light;
+}

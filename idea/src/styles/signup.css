@@ -1,0 +1,133 @@
+.signup{
+    width: 100%;
+}
+.formSignup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.form{
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    width: 650px;
+    margin-top: 15px;
+    padding: 20px;
+}
+.form h1{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formInput{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    gap: 15px;
+    position: relative;
+}
+.formInput input{
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.096);
+}
+.formInput input:focus{
+    outline: none;
+}
+.visible{
+    background-color: firebrick;
+    border: none;
+    cursor: pointer;
+    width: 0px;
+    position: absolute;
+    top: 207px;
+    left: 545px;
+}
+.visible svg{
+    color: gray;
+}
+.radioLabel{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    color: rgba(0, 0, 0, 0.233);
+}
+.radioLabel>div{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.genderLabel{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.genderLabel label{
+    padding: 0;
+    margin: 0;
+}
+.genderLabel label>span{
+    font-size: 15px;
+    margin: 0 5px 0 0;
+    padding: 0;
+}
+.checkBoxContain{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px 0px 35px 20px;
+    font-size: small;
+    color: rgba(0, 0, 0, 0.589);
+    gap: 5px;
+}
+.checkBox{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.checkBox span{
+    padding: 0;
+}
+.checkBox span>svg>path{
+    color: rgba(0, 0, 0, 0.315);
+}
+.checkBox span>svg{
+    font-size: 20px;
+}
+.checkBox a{
+    color: rgba(0, 0, 0, 0.589);
+}
+.checkBox a:hover{
+    color: rgba(0, 128, 0, 0.575);
+}
+.signupButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+.signupButton button{
+    padding: 15px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    color: black;
+}
+.signupIptal{
+    background-color: gainsboro !important;
+}
+.signupButton button:last-child{
+    background-color: rgba(172, 255, 47, 0.616);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+

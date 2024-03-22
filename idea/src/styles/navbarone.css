@@ -1,0 +1,36 @@
+.navbarOneContainer{
+    width: 100%;
+}
+.navbarOneContain{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 0px 150px;
+}
+.leftSideOne{
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: light;
+}
+.leftSideOne a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+.leftSideOne a:hover{
+    color: green;
+}
+.rightSideOne{
+    display: flex;
+    gap: 10px;
+}
+.rightSideOne svg{
+    color: rgba(128, 128, 128, 0.39);
+    transition: color 0.3s ease;
+}
+.rightSideOne svg:hover{
+    color: green;
+}

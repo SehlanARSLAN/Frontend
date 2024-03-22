@@ -1,0 +1,49 @@
+.bulletinContainer{
+    background-color: rgba(128, 128, 128, 0.041);
+    width: 100%;
+}
+.bulletinContainerTwo{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    
+}
+.bulletinTitle{
+    font-weight: lighter;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.bulletinDesc{
+    color: rgba(128, 128, 128, 0.616);
+    width: 70%;
+    text-align: center;
+}
+.bulletinInput{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.bulletinInput button{
+    border: none;
+    cursor: pointer;
+    background-color: rgb(172, 255, 47);
+}
+.bulletinInput svg{
+    font-size: 56px;
+    color: white;
+    padding: 10px;
+
+}
+.bulletinInput input{
+    padding: 20px;
+    width: 650px;
+}
+.bulletinInput input:focus + button{
+    background-color: black;
+}

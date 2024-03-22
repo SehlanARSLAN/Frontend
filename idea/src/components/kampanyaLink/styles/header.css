@@ -1,0 +1,59 @@
+.headerBackground{
+    background:url("../../../assets/kampanyabackground.jpg") no-repeat;
+}
+.headerContainer{
+    padding: 50px;
+    margin: 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.headerRight{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    font-size: 25px;
+}
+.headerRight p{
+    color: red;
+    font-size: medium !important;
+}
+.videoContain{
+    width: 100%;
+    
+}
+.videoContainTwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.videoContain video{
+    width: 80%;
+}
+.videoDetail{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: green;
+    background-color:#eeffee;
+    gap: 15px;
+    font-size: 30px;
+    padding: 40px;
+    width: 80%;
+}
+.videoDetail p{
+    color: black !important;
+    font-size: medium !important;
+}
+.videoDetail button{
+    background-color: red;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 15px;
+    color: white;
+    border-radius: 30px;
+}

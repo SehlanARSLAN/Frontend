@@ -1,0 +1,65 @@
+.bucketContainer{
+    padding: 30px;
+    margin: 30px 125px;
+    border: 1px solid #0000002d;
+}
+.bucketTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+.bucketContainerTwo{
+    display: flex;
+    gap: 10px;
+}
+.bucketProductContain{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+.bucketProductContainTwo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.bucketImage{
+    width: 10%;
+}
+.bucketImage img{
+    width: 100%;
+}
+
+.bucketClearButton{
+    border: none;
+    background-color: rgba(0, 128, 0, 0.39);
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.bucketButtonCountGroup{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.bucketCount{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 50px;
+}
+.bucketCalculateSide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+}

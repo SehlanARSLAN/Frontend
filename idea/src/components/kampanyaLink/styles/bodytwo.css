@@ -1,0 +1,36 @@
+.bodyTwoContainer{
+    background-color: #eeffee;
+}
+.bodyTwoBackground{
+    margin: 30px 150px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.bodyTwoRight{
+    padding: 10px;
+    width: 40%;
+    gap: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.bodyTwoRight h1{
+    color: rgba(0, 128, 0, 0.712);
+    font-weight: 400;
+    font-size:40px ;
+}
+.bodyTwoRight button{
+    background-color: red;
+    width: 130px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px;
+    color: white;
+    border-radius: 30px;
+}
