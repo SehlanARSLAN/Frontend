@@ -1,0 +1,38 @@
+.navbarContain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+.logoContainer img{
+   width: 100%;
+}
+.iconContainer{
+    display: flex;
+    gap: 15px;
+}
+.iconContainer svg{
+    font-size: 45px;
+    color: white;
+}
+
+@media (max-width: 768px) { 
+    .navbarContain{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 100px;
+    }
+    .logoContainer img{
+       width: 100%;
+    }
+    .iconContainer{
+        display: none;
+        gap: 15px;
+    }
+    .iconContainer svg{
+        display: none;
+        font-size: 45px;
+        color: white;
+    }
+}
