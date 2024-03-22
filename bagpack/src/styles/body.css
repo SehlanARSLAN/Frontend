@@ -1,0 +1,22 @@
+.background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url('../assets/background.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+.background h1{
+    font-size: 80px;
+    color: white;
+}
+.background button{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 35px ;
+    padding: 10px 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,104 @@
+.groupContain{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 100%;
+    padding: 202px;
+}
+.groupContainTwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    margin: auto;
+}
+.groupContainTwo h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.feedContain{
+    width: 100%;
+
+}
+.groupsFeed{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.contain-feed{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+.groupLeft{
+    border: 1px solid white;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 100px;
+}
+.boldFont{
+    font-weight: bold;
+}
+.groupLeft p{
+    text-align: center;
+}
+.groupRight{
+    border: 1px solid white;
+    width: 30%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 15px;
+    height: 90%;
+}
+.searchContain{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.searchContain input{
+    display: flex;
+    align-items: flex-start;
+    color: white;
+    font-size: medium;
+    width: 100%;
+    outline: none;
+    padding: 5px;
+    padding-left: 25px;
+    background-color: black;
+    border: 1px solid white;
+}
+.searchContain input::placeholder{
+    color: white;
+}
+.searchIcon{
+    position: absolute;
+    transform: translate(0px, 2px);
+}
+.searchIcon svg{
+    color: white;
+}
+.group{
+    margin-top: 15px;
+    display: flex;
+    gap: 5px;
+}
+.groupAll{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    height: 32px;
+    justify-content: flex-start;
+    margin: 5px 0px;
+}
+.groupAll p{
+    font-weight: lighter;
+    font-size: 13px;
+}

@@ -1,0 +1,83 @@
+.productDetailContain{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.productDetail{
+    width: 50%;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.buttonDetail{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.buttonPrevNext{
+    display: flex;
+    gap: 5px;
+}
+.buttonPrevNext button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+.prevNext{
+    display: flex;
+    align-items: center;
+}
+.detailContent{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.description{
+    text-align: justify;
+    width: 80%;
+}
+.detailRightSide label{
+    font-size: 13px;
+    display: flex;
+    margin-top: 10px;
+}
+.detailRightSide input{
+    margin: 5px 0px;
+    width: 80px;
+    padding: 8px;
+    outline: none;
+}
+.productCart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.productCart button{
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.productCart button:nth-child(1){
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+}
+.productCart button:nth-child(2):hover{
+    background-color: rgba(255, 255, 255, 0.774);
+
+}
+.infoProduct{
+    margin-top: 15px;
+}
+.sliderContain{
+    margin-top: 100px;
+}
